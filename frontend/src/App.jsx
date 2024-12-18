@@ -12,6 +12,9 @@ import Navbar from './components/Navbar'; // Import Navbar component
 
 function App() {
     return (
+      
+
+      
         <Router>
             {/* Render Navbar across all routes */}
             <Navbar />

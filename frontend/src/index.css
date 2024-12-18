@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global styles for the black-gold-white theme */
+body {
+  background-color: #000000; /* Black */
+  color: #FFFFFF;           /* White */
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #FFD700; /* Gold links */
+}
+
+button {
+  background-color: #FFD700; /* Gold button */
+  color: #000000;            /* Black text */
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #FFFFFF; /* White on hover */
+  color: #000000;            /* Black text */
+}
