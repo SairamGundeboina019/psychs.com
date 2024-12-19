@@ -1,0 +1,31 @@
+/* Container styles */
+.product-listing-container {
+  min-height: 100vh; /* Full viewport height */
+  background-color: #000000; /* Black background */
+  color: #FFFFFF; /* White text */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Product card styles */
+.product-card {
+  border: 1px solid #FFD700; /* Gold border */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5); /* Gold glow */
+}
+
+/* Text styles */
+.text-gold {
+  color: #FFD700; /* Gold text */
+}
+
+/* Button hover effect */
+.btn-warning:hover {
+  background-color: #FFFFFF; /* White background */
+  color: #000000; /* Black text */
+  border: 2px solid #FFD700; /* Gold border */
+}

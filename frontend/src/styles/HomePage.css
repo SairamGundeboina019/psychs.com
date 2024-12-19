@@ -1,0 +1,19 @@
+/* Styles for the HomePage component */
+
+.homepage-container {
+  background-color: #000000; /* Black background */
+  color: #FFFFFF;           /* White text */
+  min-height: 100vh;        /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Button hover effect */
+.btn-warning:hover {
+  background-color: #FFFFFF; /* White on hover */
+  color: #000000;            /* Black text */
+  border: 2px solid #FFD700; /* Gold border */
+}

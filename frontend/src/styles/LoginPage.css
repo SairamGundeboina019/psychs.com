@@ -1,0 +1,42 @@
+/* Container styles */
+.login-container {
+  min-height: 100vh; /* Full viewport height */
+  padding: 2rem;
+  background-color: #000000; /* Black background */
+  color: #FFFFFF; /* White text */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Form styles */
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #1a1a1a; /* Slightly lighter black for contrast */
+  border: 2px solid #FFD700; /* Gold border */
+  border-radius: 10px;
+}
+
+.form-label {
+  color: #FFD700; /* Gold label text */
+}
+
+.form-control {
+  background-color: #000000; /* Black input background */
+  color: #FFFFFF; /* White input text */
+  border: 1px solid #FFD700; /* Gold border */
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  background-color: #1a1a1a; /* Slightly lighter black */
+  color: #FFFFFF;
+  border-color: #FFD700; /* Gold border focus */
+  box-shadow: 0 0 5px #FFD700;
+}
+
+/* Button hover effect */
+.btn-warning:hover {
+  background-color: #FFFFFF; /* White background */
+  color: #000000; /* Black text */
+  border: 2px solid #FFD700; /* Gold border */
+}

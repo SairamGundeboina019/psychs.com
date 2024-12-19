@@ -1,0 +1,41 @@
+/* Header container */
+.header {
+  background-color: #000000; /* Black background */
+  border-bottom: 2px solid #FFD700; /* Gold border */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFD700; /* Gold logo */
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #FFFFFF; /* White on hover */
+}
+
+/* Navigation styles */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #FFD700; /* Gold links */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #FFFFFF; /* White on hover */
+}

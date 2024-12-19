@@ -1,0 +1,26 @@
+/* Container styles */
+.product-details-container {
+  min-height: 100vh; /* Full viewport height */
+  padding: 2rem;
+  background-color: #000000; /* Black background */
+  color: #FFFFFF; /* White text */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Text and spacing styles */
+.product-details-info p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Gold text */
+.text-gold {
+  color: #FFD700; /* Gold text */
+}
+
+/* Button hover effect */
+.btn-warning:hover {
+  background-color: #FFFFFF; /* White background */
+  color: #000000; /* Black text */
+  border: 2px solid #FFD700; /* Gold border */
+}
